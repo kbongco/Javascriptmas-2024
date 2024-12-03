@@ -1,0 +1,52 @@
+/* Color pallette from coolors:
+red background: bc4749;
+font-color: f6f4d2 
+light-green-secondyar: a7c957
+dark-green: 6a994e
+christmas-green: 386641*/
+
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: #bc4749;
+}
+
+h1 {
+  margin: 20px;
+  color: #f6f4d2;
+  font-size: 2rem;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.3rem;
+  color: #f6f4d2;
+  text-align: center;
+}
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 2px;
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #386641;
+  border-radius: 20px;
+}
+
+.calendar-box {
+  background-color: #6a994e;
+  color: #f2e8cf;
+  font-size: 8px;
+  text-align: left;
+  padding: 2px;
+  border: 1px dashed #386641;
+}
+
+.calendar-box p {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+}
